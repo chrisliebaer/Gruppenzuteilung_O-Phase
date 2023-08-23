@@ -1,3 +1,14 @@
+# Docker Support
+Dieser Fork bringt Docker Support mit. Um den Zuteilungsalgorithmus auszuführen, verwende folgenden Befehl:
+```bash
+docker run --rm -it ghcr.io/chrisliebaer/Gruppenzuteilung_O-Phase:latest
+```
+
+Der Quellcode des Projekts befindet sich zusätzlich in `/source`, so dass eigene Testläufe durchgeführt werden können.
+Zusätzlich habe ich eigene Konfigurationen hinzugefügt um die Auswirkungen des neuen Zuteilungsalgorithmus auf die Gruppenverteilung zu testen.
+
+-----------
+
 <h1>O-Phase - Algorithmus zur Gruppeneinteilung</h1>
 
 Implementiert einen Algorithmus zur Zuteilung von Erstis zu O-Phasen-Gruppen, wobei jeder Ersti die Gruppen bewerten kann.
