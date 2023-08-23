@@ -1,7 +1,7 @@
 # Docker Support
 Dieser Fork bringt Docker Support mit. Um den Zuteilungsalgorithmus auszuführen, verwende folgenden Befehl:
 ```bash
-docker run --rm -it ghcr.io/chrisliebaer/Gruppenzuteilung_O-Phase:latest
+docker run --rm -it ghcr.io/chrisliebaer/gruppenzuteilung_o-phase:latest
 ```
 
 Der Quellcode des Projekts befindet sich zusätzlich in `/source`, so dass eigene Testläufe durchgeführt werden können.
